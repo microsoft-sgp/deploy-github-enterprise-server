@@ -1,0 +1,17 @@
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+crash.*.log
+
+# Sensitive variable files (commit only *.tfvars.example)
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Keep the provider lock file under version control
+!.terraform.lock.hcl
