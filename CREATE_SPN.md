@@ -6,7 +6,7 @@ TENANT_ID=<yourtenantid>
 
 # Create SPN
 az ad sp create-for-rbac \
-  --name agentic-ai-spn \
+  --name spn-ghes \
   --role Contributor \
   --scopes /subscriptions/${SUB_ID}
 
